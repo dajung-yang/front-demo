@@ -104,7 +104,7 @@ action.
 ```js
 export const getPosts = () => async (dispatch) => {
   // Here make an async request to your sever and extract the data from the server response
-  // const response = await axios.get('/__fake-api__/blog/articles');
+  // const response = await axios.get('/api/blog/articles');
   // const { data } = reponse;
 
   const data = [

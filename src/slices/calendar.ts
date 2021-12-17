@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import type { PayloadAction } from "@reduxjs/toolkit";
-import { calendarApi } from "../__fake-api__/calendar-api";
+import { calendarApi } from "../api/calendar-api";
 import type { AppThunk } from "../store";
 import type { CalendarEvent } from "../types/calendar";
 

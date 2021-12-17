@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import type { PayloadAction } from "@reduxjs/toolkit";
-import { chatApi } from "../__fake-api__/chat-api";
+import { chatApi } from "../api/chat-api";
 import type { AppThunk } from "../store";
 import type { Contact, Message, Thread } from "../types/chat";
 import { objFromArray } from "../utils/obj-from-array";

@@ -1,6 +1,6 @@
 // import axios from "axios";
 // import AxiosMockAdapter from "axios-mock-adapter";
-import { authApi } from "@/__fake-api__/auth-api";
+import { authApi } from "@/api/auth-api";
 
 // export const axiosInstance = axios.create();
 

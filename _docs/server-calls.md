@@ -126,7 +126,7 @@ axiosInstance.interceptors.response.use(
 
 const mock = new AxiosMockAdapter(axiosInstance, {delayResponse: 0});
 
-mock.onGet('/__fake-api__/invoices').reply(200, {
+mock.onGet('/api/invoices').reply(200, {
   invoices: [
     {id: 1, total: 32.43},
     {id: 2, total: 67.00}

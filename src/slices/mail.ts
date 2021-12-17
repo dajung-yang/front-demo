@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import type { PayloadAction } from "@reduxjs/toolkit";
-import { mailApi } from "../__fake-api__/mail-api";
+import { mailApi } from "../api/mail-api";
 import type { AppThunk } from "../store";
 import type { Email, Label } from "../types/mail";
 import { objFromArray } from "../utils/obj-from-array";
