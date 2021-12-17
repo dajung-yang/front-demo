@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "prettier",
+    "plugin:prettier/recommended",
+    "next/core-web-vitals"
+  ],
+  "plugins": [
+    "react-hooks",
+    "prettier"
+  ],
+  "rules": {
+    "@next/next/no-img-element": "off",
+    "jsx-a11y/alt-text": "off",
+    "react/display-name": "off",
+    "react/jsx-max-props-per-line": [
+      1,
+      {
+        "maximum": 1
+      }
+    ],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "prettier/prettier": "error"
+  }
+}
